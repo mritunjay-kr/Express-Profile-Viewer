@@ -1,0 +1,2 @@
+# Express Profile Viewer
+This is a simple web application built with Node.js and the Express.js framework. It serves static files from a public directory and uses EJS as its templating engine. The application features two main routes for displaying user profiles: A basic route / that renders an index view. A dynamic route /profile/:username that displays a welcome message to a specified username. Another dynamic route /profile/:username/:age which currently outputs a generic message. The application is configured to listen on port 3000.
